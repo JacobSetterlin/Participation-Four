@@ -12,3 +12,5 @@ while next_number <= 4000000:
 
     current_numbers[0] = current_numbers[1]
     current_numbers[1] = next_number
+
+print(f"The sum of all numbers less than four million in the fibonacci sequence is {sum(numbers_to_add)}.")
